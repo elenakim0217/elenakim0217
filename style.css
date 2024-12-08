@@ -1,0 +1,92 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	background-color: #27512e;
+	font-family: 'Montserrat', sans-serif;
+	color: white;
+}
+
+#mainContainer {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-top: 80px;
+	width: 100%;
+	text-align: center;
+	user-select: none;
+}
+
+#titleContainer {
+	z-index: 1;
+}
+
+#mainContainer h1 {
+	font-size: 60px;
+	font-weight: 600;
+	text-align: center;
+}
+
+#mainContainer p {
+	font-size: 20px;
+	text-align: center;
+}
+
+#mainContainer img {
+	position: relative;
+	bottom: 250px;
+	width: 100%;
+	height: auto;
+	z-index: 0;
+}
+
+#mainContainer h2 {
+	font-size: 34px;
+	font-weight: 400;
+}
+
+#btnContainer {
+	display: flex;
+	justify-content: center;
+}
+
+#btnContainer button {
+	color: #422800;
+	background-color: #eddea4;
+	border: 2px solid #422800;
+	border-radius: 30px;
+	box-shadow: #422800 4px 4px 0 0;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 16px;
+	font-weight: 600;
+	padding: 0 18px;
+	line-height: 50px;
+	text-align: center;
+	user-select: none;
+}
+
+#btnContainer button:hover {
+	background-color: #f2f6d0;
+}
+
+#btnContainer button:active {
+	box-shadow: #422800 2px 2px 0 0;
+	transform: translate(2px, 2px);
+}
+
+#myCanvas {
+	position: absolute;
+	width: 90%;
+	height: auto;
+	top: 214px;
+	left: 5%;
+	z-index: -1;
+}
+
+#presentBox {
+	display: none;
+	margin: 0 auto;
+	margin-top: 300px;
+}
